@@ -14,9 +14,9 @@
 <body>
   <header>
     {{!-- navBar --}}
-    <nav class="navbar navbar-dark bg-primary justify-content-between">
+    <nav class="navbar navbar-dark bg-primary justify-content-between px-4">
       <a class="navbar-brand" href="/">
-        {{#if isAuthenticated}}{{ user.name}}'s{{/if}} Todo List
+        {{#if isAuthenticated}}{{ user.name}}'s{{/if}} expense-tracker
       </a>
       {{#if isAuthenticated}}
       <a href="/users/logout" class="btn btn-outline-light">Logout</a>
@@ -31,11 +31,11 @@
       {{{ body }}}
     </div>
   </main>
-  
-  {{!-- load Bootstrap --}}
-  <script src="/javascripts/bootstrap.bundle.js"></script>
+
   {{!-- load fontAwesome --}}
   <script src="https://kit.fontawesome.com/8dad737d39.js" crossorigin="anonymous"></script>
+  {{!-- load Bootstrap --}}
+  <script src="/javascripts/bootstrap.bundle.js"></>
 </body>
 
 </html>
