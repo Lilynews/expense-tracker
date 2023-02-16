@@ -7,3 +7,9 @@ Icon?
 node_modules
 *.log
 *.gz
+
+# dotenv
+.env
+
+#text
+test.text

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "steak",
+    "date": "2023-02-14",
+    "amount": 900,
+    "category": "餐飲食品"
+  },
+  {
+    "name": "chocolate cake",
+    "date": "2023-02-13",
+    "amount": 100,
+    "category": "餐飲食品"
+  },
+  {
+    "name": "add gasoline",
+    "date": "2023-02-10",
+    "amount": 500,
+    "category": "交通出行"
+  },
+  {
+    "name": "super bowl",
+    "date": "2023-02-12",
+    "amount": 100000,
+    "category": "休閒娛樂"
+  }
+]

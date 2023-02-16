@@ -1,0 +1,22 @@
+[
+  {
+    "name": "餐飲食品",
+    "icon": "<i class='fa-light fa-bowl-food'></i>"
+  },
+  {
+    "name": "家居物業",
+    "icon": "<i class='fa-light fa-house'></i>"
+  },
+  {
+    "name": "交通出行",
+    "icon": "<i class='fa-light fa-bus-simple'></i>"
+  },
+  {
+    "name": "休閒娛樂",
+    "icon": "<i class='fa-light fa-champagne-glasses'></i>"
+  },
+  {
+    "name": "其他",
+    "icon": "<i class='fa-light fa-tag'></i>"
+  }
+]
