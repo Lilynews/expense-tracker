@@ -1,22 +1,22 @@
 [
   {
     "name": "餐飲食品",
-    "icon": "<i class='fa-light fa-bowl-food'></i>"
+    "icon": "fa-solid fa-utensils"
   },
   {
     "name": "家居物業",
-    "icon": "<i class='fa-light fa-house'></i>"
+    "icon": "fa-solid fa-house"
   },
   {
     "name": "交通出行",
-    "icon": "<i class='fa-light fa-bus-simple'></i>"
+    "icon": "fa-solid fa-van-shuttle"
   },
   {
     "name": "休閒娛樂",
-    "icon": "<i class='fa-light fa-champagne-glasses'></i>"
+    "icon": "fa-solid fa-face-grin-beam"
   },
   {
     "name": "其他",
-    "icon": "<i class='fa-light fa-tag'></i>"
+    "icon": "fa-solid fa-pen"
   }
 ]
