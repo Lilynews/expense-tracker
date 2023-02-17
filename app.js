@@ -1,7 +1,7 @@
 // import express
 const express = require('express')
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 3000
 // import handlebars 
 const exphbs = require('express-handlebars')
 // import method-override for PUT & DELETE
