@@ -3,7 +3,9 @@ const express = require('express')
 const app = express()
 const port = 3000
 // import handlebars 
-const exphbs = require('express-handlebars');
+const exphbs = require('express-handlebars')
+// import method-override for PUT & DELETE
+const methodOverride = require('method-override') 
 // router setting
 const routes = require('./routes')
 // import session & passport for login feature
@@ -29,6 +31,9 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'))
 // for body.parser
 app.use(express.urlencoded({ extended: true }))
+// every request will through _method first
+app.use(methodOverride('_method'))
+
 
 // session setting
 app.use(session({
@@ -48,9 +53,12 @@ app.use((req, res, next) => {
   // for auth
   res.locals.isAuthenticated = req.isAuthenticated()
   res.locals.user = req.user
+
   // for flash
   res.locals.success_msg = req.flash('success_msg')
   res.locals.warning_msg = req.flash('warning_msg')
+  res.locals.error = req.flash('error')
+  
   next()
 })
 
